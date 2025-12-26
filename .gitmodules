@@ -64,6 +64,10 @@
 	path = plugins/provider_variant_x86_64
 	url = ../provider-variant-x86-64.git
 
+[submodule "provider/huawei-ascend"]
+	path = plugins/huawei-ascend-variant-provider
+	url = ../huawei-ascend-variant-provider.git
+
 [submodule "variantlib"]
 	path = variantlib
 	url = ../variantlib.git
