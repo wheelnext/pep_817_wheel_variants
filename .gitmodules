@@ -53,7 +53,7 @@
 
 [submodule "provider/nvidia"]
 	path = plugins/nvidia_variant_provider
-	url = ../nvidia-variant-provider.git
+	url = ../nvidia-variant-provider
 	branch = master
 
 [submodule "provider/openmp"]
@@ -62,15 +62,15 @@
 
 [submodule "provider/x86_64"]
 	path = plugins/provider_variant_x86_64
-	url = ../provider-variant-x86-64.git
+	url = ../provider-variant-x86-64
 
 [submodule "provider/huawei-ascend"]
 	path = plugins/huawei-ascend-variant-provider
-	url = ../huawei-ascend-variant-provider.git
+	url = ../huawei-ascend-variant-provider
 
 [submodule "variantlib"]
 	path = variantlib
-	url = ../variantlib.git
+	url = ../variantlib
 	branch = main
 
 [submodule "schema"]
