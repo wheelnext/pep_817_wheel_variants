@@ -42,37 +42,45 @@
 	path = pip
 	url = ../pip
 	branch = pep-xxx-wheel-variants
-	
-[submodule "provider/blas-lapack"]
+
+[submodule "plugins/amd-variant-provider"]
+	path = plugins/amd-variant-provider
+	url = ../amd-variant-provider
+
+[submodule "plugins/blas-lapack-variant-provider"]
 	path = plugins/blas-lapack-variant-provider
 	url = ../blas-lapack-variant-provider
 
-[submodule "provider/aarch64"]
-	path = plugins/provider_variant_aarch64
-	url = ../provider-variant-aarch64
+[submodule "plugins/huawei-ascend-variant-provider"]
+	path = plugins/huawei-ascend-variant-provider
+	url = ../huawei-ascend-variant-provider
 
-[submodule "provider/nvidia"]
+[submodule "plugins/intel-variant-provider"]
+	path = plugins/intel-variant-provider
+	url = ../intel-variant-provider
+
+[submodule "plugins/nvidia-variant-provider"]
 	path = plugins/nvidia_variant_provider
 	url = ../nvidia-variant-provider
 	branch = master
 
-[submodule "provider/openmp"]
+[submodule "plugins/openmp-variant-provider"]
 	path = plugins/openmp-variant-provider
 	url = ../openmp-variant-provider
 
-[submodule "provider/x86_64"]
+[submodule "plugins/provider_variant_aarch64"]
+	path = plugins/provider_variant_aarch64
+	url = ../provider-variant-aarch64
+
+[submodule "plugins/provider_variant_x86_64"]
 	path = plugins/provider_variant_x86_64
 	url = ../provider-variant-x86-64
 
-[submodule "provider/huawei-ascend"]
-	path = plugins/huawei-ascend-variant-provider
-	url = ../huawei-ascend-variant-provider
+[submodule "schema"]
+	path = schema
+	url = ../variants-schema
 
 [submodule "variantlib"]
 	path = variantlib
 	url = ../variantlib
 	branch = main
-
-[submodule "schema"]
-	path = schema
-	url = ../variants-schema
