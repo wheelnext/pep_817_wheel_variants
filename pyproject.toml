@@ -20,7 +20,7 @@ dependencies = [
     "flit_core",
     "hatch",
     "hatchling",
-    "meson-python",
+    # "meson-python",
     "mockhouse",
     "packaging",
     "pip",
