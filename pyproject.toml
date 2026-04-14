@@ -24,8 +24,9 @@ dependencies = [
     "mockhouse",
     "packaging",
     "pip",
-    "scikit-build-core",
+    "scikit-build-core[wheels]",
     "variantlib[cli,dev,test]",
+    "pybind11",
 ]
 requires-python = ">=3.10"
 
