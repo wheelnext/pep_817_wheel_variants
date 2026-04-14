@@ -6,9 +6,10 @@ build-backend = "scikit_build_core.build"
 name = "dummpy-project-scikit-build-core"
 version = "0.0.1"
 description = "A dummy project for testing purposes"
-authors = [    
+authors = [
     { name = "Hyunsu Cho", email = "chohyu01@gmail.com" },
 ]
+
 requires-python = ">=3.12"
 
 [variant.default-priorities]
