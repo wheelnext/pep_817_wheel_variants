@@ -24,6 +24,7 @@ dependencies = [
     "mockhouse",
     "packaging",
     "pip",
+    "scikit-build-core",
     "variantlib[cli,dev,test]",
 ]
 requires-python = ">=3.10"
@@ -36,6 +37,7 @@ hatchling = { workspace = true }
 meson-python = { workspace = true }
 mockhouse = { workspace = true }
 pip = { workspace = true }
+scikit-build-core = { workspace = true }
 variantlib = { workspace = true }
 
 [tool.uv.workspace]
@@ -46,7 +48,8 @@ members = [
     "hatch/backend", # hatchling
     "meson-python",
     "mockhouse/mockhouse_lib", 
-    "pip", 
+    "pip",
+    "scikit-build-core",
     "variantlib",
 ]
 

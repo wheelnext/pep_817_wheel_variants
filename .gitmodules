@@ -84,3 +84,6 @@
 	path = variantlib
 	url = ../variantlib
 	branch = main
+[submodule "scikit-build-core"]
+	path = scikit-build-core
+	url = https://github.com/wheelnext/scikit-build-core
