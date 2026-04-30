@@ -1,0 +1,26 @@
+[build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "dummpy-project-scikit-build-core"
+version = "0.0.1"
+description = "A dummy project for testing purposes"
+authors = [
+    { name = "Hyunsu Cho", email = "chohyu01@gmail.com" },
+]
+
+requires-python = ">=3.12"
+
+[variant.default-priorities]
+namespace = ["fictional_hw", "fictional_tech"]
+feature = []
+property = []
+
+[variant.providers.fictional_tech]
+requires = ["provider-fictional-tech == 1.0.0"]
+plugin-api = "provider_fictional_tech.plugin:FictionalTechPlugin"
+
+[variant.providers.fictional_hw]
+requires = ["provider-fictional-hw == 1.0.0"]
+plugin-api = "provider_fictional_hw.plugin:FictionalHWPlugin"
