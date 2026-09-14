@@ -11,4 +11,4 @@ dynamic = ["version", "description"]
 
 
 [project.entry-points.variant_plugins]
-provider_fictional_hw = "provider_fictional_hw.plugin:FictionalHWPlugin"
+fictional_hw = "provider_fictional_hw.plugin:FictionalHWPlugin"
