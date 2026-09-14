@@ -11,4 +11,4 @@ dynamic = ["version", "description"]
 
 
 [project.entry-points.variant_plugins]
-provider_fictional_tech = "provider_fictional_tech.plugin:FictionalTechPlugin"
+fictional_tech = "provider_fictional_tech.plugin:FictionalTechPlugin"
