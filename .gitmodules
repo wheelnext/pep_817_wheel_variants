@@ -69,8 +69,8 @@
 	url = ../openmp-variant-provider
 
 [submodule "plugins/provider_variant_aarch64"]
-	path = plugins/provider_variant_aarch64
-	url = ../provider-variant-aarch64
+	path = plugins/aarch64-variant-provider
+	url = ../aarch64-variant-provider
 
 [submodule "plugins/provider_variant_x86_64"]
 	path = plugins/x86_64-variant-provider
